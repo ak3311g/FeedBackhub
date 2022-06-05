@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeedBack Hub</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <div class="feedback"><a href="Homepage.html"><div class="logo"></div></a></div>
+  <nav>
+    <ul>
+      <li class="help"><a>Help &nbsp;&nbsp;|</a>
+        <ul>
+          <li><a href="#footer">Email</a></li>
+          <li><a href="#">Principal</a></li>
+          <li><a href="#">Accounts</a></li>
+          <li><a href="#">Registrar</a></li>
+        </ul>
+      </li>
+      <li class="men"><a>Menu</a>
+        <ul>
+          <li><a href="#sec">Services</a></li>
+          <li><a href="#">Complaint</a></li>
+          <li><a href="#footer">About Us</a></li>
+          <li><a href="https://ggnindia.dronacharya.info/">About DCE</a></li>
+          <li><a href="#">Forum</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+    <div class="details">
+    <form method="post" action="sports-form-handler.php">
+    <h1><center>Indisciplinary Activities</center></h1><br>
+      <div>
+        <label for = "Name"><b>Name</b></label>
+        &nbsp<input type = "text" name = "user_name" placeholder = "Enter Your Name" id = "Name"><br><br>
+      </div>
+      <div>
+        <label for = "Email"><b>Email</b></label>
+        &nbsp<input type = "email" placeholder = "Enter Your Email ID" id = "Email"><br><br>
+      </div>
+      <div>
+        <label for = "Date"><b>Date</b></label>
+        &nbsp<input type = "Date" id = "Date"><br><br>
+      </div>
+      <div>
+       <label for = "Branch"><b>Branch : </b></label><br><br>
+       <span>
+        &nbsp<input type = "radio" name = "Branch" value = "CSE" id = "Branch"> CSE
+        &nbsp<input type = "radio" name = "Branch" value = "IT" id = "Branch"> IT
+        &nbsp<input type = "radio" name = "Branch" value = "EEE" id = "Branch"> EEE
+        &nbsp<input type = "radio" name = "Branch" value = "ECE" id = "Branch"> ECE
+        &nbsp<input type = "radio" name = "Branch" value = "MECHANICAL" id = "Branch"> MECHANICAL
+       </span>
+      </div>
+    <br><br>
+      <div>
+       <label for = "Sem"><b>Sem : </b></label>&nbsp;
+      <select>
+       <option name = "Choose">Choose</option>
+       <option name = "1">1</option>
+       <option name = "2">2</option>
+       <option name = "3">3</option>
+       <option name = "4">4</option>
+       <option name = "5">5</option>
+       <option name = "6">6</option>
+       <option name = "7">7</option>
+       <option name = "8">8</option>
+      </select>
+    </div>
+      <br><br>
+     <div>
+      <label for = "Ratings"><b>Ratings : </b></label><br><br>
+     <span >
+      &nbsp<input type = "checkbox" id = "star5" name = "*****">
+      &nbsp<img src="5-stars.jpg" width="100px" height="20px">
+     </span>
+     <br>
+     <span>
+      &nbsp<input type = "checkbox" id = "star4" name = "****">
+      &nbsp<img src="4-stars.jpg" width="100px" height="20px">
+     </span>
+     <br>
+     <span>
+      &nbsp<input type = "checkbox" id = "star3" name = "***">
+      &nbsp<img src="3-stars.jpg" width="100px" height="20px">
+     </span>
+     <br>
+     <span>
+      &nbsp<input type = "checkbox" id = "star2" name = "**">
+      &nbsp<img src="2-stars.jpg" width="100px" height="20px">
+     </span>
+     <br>
+     <span>
+      &nbsp<input type = "checkbox" id = "star1" name = "*">
+      &nbsp<img src="1-star.jpg" width="100px" height="20px">
+     </span>
+     <br>
+     </div>
+    <br><br>
+    <label for = "Suggestions"><b>Suggestions : </b></label><br>
+    &nbsp<textarea cols = "50" rows = "10" placeholder = "Enter Your Suggestions" id = "Suggestions" class = "details"></textarea><br><br>
+    <hr>
+    <button type = "submit">Submit</button><br>   
+    </form>
+   </div>
+  </body>
+</html>
